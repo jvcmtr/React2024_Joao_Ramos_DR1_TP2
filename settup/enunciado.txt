@@ -1,0 +1,150 @@
+Olá, João,
+
+Chegamos em mais uma etapa de preparação! A cada Teste de Performance (TP) você terá a oportunidade de praticar os conhecimentos adquiridos e receber feedbacks relevantes para o seu aprendizado. 
+
+Esse é o segundo teste de performance (TP) da disciplina regular Mobile-First UI com React, do Bloco de Desenvolvimento Front-end com Frameworks. É a partir daqui que você dará seus primeiros passos em sua formação.
+
+Nesse TP2, temos como objetivo desenvolver a primeira competência prevista para nossa disciplina: Criar páginas web responsivas com CSS3. Para tal, você irá desenvolver algumas tarefas que irão passar por todo o conteúdo visto na primeira e segunda etapas do curso. Crie uma conta no Replit e desenvolva 16 arquivos dentro dele para a sua entrega.
+
+Template para o TP2
+Tarefa 1 Criação de Layouts com Imagens Fluídas I
+
+Crie um layout básico com imagem responsiva que se ajuste ao tamanho da tela usando a tag picture.
+
+Utilize a tag específica indicada para o uso de imagens na página HTML.
+Defina a possível saída para 3 resoluções, 576px, 992px, e todas acima.
+A imagem deve ocupar 100% da largura do Viewport.
+Tarefa 2 Criação de Layouts com Imagens Fluídas II
+
+Crie um layout básico com imagem responsiva que se ajuste ao tamanho da tela usando CSS.
+
+Utilize a tag img na página HTML.
+Utilize adequadamente no CSS, a propriedade max-width para atender a todas as resoluções.
+A imagem deve ocupar 100% da largura do Viewport.
+Tarefa 3 Organização de elementos em um layout responsivo I
+
+Reproduza o layout da imagem, aplicando as técnicas de Mobile-first, usando Flexbox.
+
+Reproduza conforme a imagem, organizando e distribuindo os elementos com Flexbox.
+Não use CSS no arquivo HTML. 
+O Container principal deve ocupar 100% da largura do Viewport, sendo que esta deve ser de até 576px.
+A borda é apenas ilustrativa.
+
+
+Tarefa 4 Organização de elementos em um layout responsivo II
+
+Reproduza o layout da imagem, organizando o container com duas seções na vertical (menu e apresentação) e duas na horizontal (a seção de apresentação deve ser dividida entre textos e imagem).
+
+Reproduza conforme a imagem, organizando e distribuindo os elementos com Flexbox.
+Não use CSS no arquivo HTML. 
+O Container principal deve ocupar 100% da largura do Viewport.
+Use Media Query para ajustar o conteúdo do exercício anterior, para visualizações a partir de 992px.
+A borda é meramente ilustrativa.
+
+
+Tarefa 5 Organização de elementos em um layout responsivo III - Centralização
+
+Criar um layout responsivo onde os elementos são centralizados vertical e horizontalmente em um container. Use display:grid para centralizar conteúdo de maneira eficaz em diferentes tamanhos de tela.
+
+Crie um arquivo HTML e um arquivo CSS. 
+Sua estrutura básica no arquivo HTML deve conter um elemento Container e três elementos filhos. 
+Alinhe os elementos filhos ao centro do container pai. 
+O container principal deve ter um fundo de cor diferente para evidenciar o espaço ocupado.
+No arquivo CSS, defina estilos para o container principal de forma que ele ocupe 100% da altura da tela e use grid para centralizar os elementos internos vertical e horizontalmente.
+Cada elemento interno deve ter tamanhos variados e cores diferentes.
+Ao redimensionar a janela do navegador, os elementos devem permanecer centralizados e o layout deve se adaptar para telas menores (ex.: mudar de um layout horizontal para vertical).
+Tarefa 6 Construindo um layout básico com CSS Grid
+
+Criar um layout responsivo com CSS Grid contendo áreas de cabeçalho, uma barra lateral, um conteúdo principal e um rodapé.
+
+Crie uma estrutura básica em HTML, com elementos header, nav, main, aside e footer.
+Defina o container principal como um grid com 3 colunas e pelo menos 3 linhas.
+O cabeçalho e o rodapé devem ocupar todas as colunas, sendo a primeira e última linha, respectivamente.
+A barra lateral deve ocupar a primeira coluna, o conteúdo principal a segunda, e a terceira coluna pode ser vazia ou usada para elementos adicionais.
+Adicione um fundo de cor diferente para cada área para facilitar a visualização do layout.
+Tarefa 7 Ajustando a Responsividade com a Tag <meta> "viewport"
+
+Usando o arquivo do exercício anterior, defina a tag meta com os atributos: name="viewport", content="width=device-width, initial-scale=1.0". 
+
+Teste sua página em diferentes resoluções.
+
+Remova a tag <meta> "viewport" e observe como o layout da página é afetado em dispositivos móveis. Descreva em um parágrafo no main, resumidamente, o que você observou mudar.
+Modifique o valor de “ Initial-scale” para ver como o zoom inicial da página muda em dispositivos móveis. Teste e descreva mais uma parágrafo no main destacando o que você observou mudar.
+Experimente outros valores para content, como width=500 ou initial-scale=2, e observe as mudanças no layout. Descreva em outro parágrafo no main, quais mudanças você observou.
+Seu arquivo main terá 3 parágrafos, conforme solicitado acima.
+Tarefa 8 Usando Media Query I
+
+Criar um arquivo CSS e defina 5 (Cinco) breakpoints com media queries para diferentes tamanhos de dispositivos. 
+
+Defina do menor para o maior, aplicando mobile-first.
+Tarefa 9 Usando Media Query II
+
+Num arquivo HTML, defina 3 (três) arquivos CSS a serem chamados pela tag link.
+
+Use o atributo media.
+Uma das tags link deve estar apropriada para um arquivo css de impressão.
+Tarefa 10 Usando Media Query III
+
+Num arquivo CSS, defina 3 (três) chamadas de arquivos CSS usando a regra @import. 
+
+Combine testagens de orientação, largura mínima, altura, dentre outras. 
+Na combinação de testagens, use os conectores and ou or.
+Tarefa 11 Organização de elementos num layout responsivo
+
+Crie uma página simples responsiva com uma imagem e um texto que se ajuste ao tamanho da tela usando CSS.
+
+O layout padrão deverá ser o vertical (mobile-first) e deve apresentar a imagem na parte superior da página, seguida do texto na parte inferior.
+
+Porém, para uma determinada largura da página, quando houver espaço adequado para, o texto deve aparecer ao lado da imagem, apresentando um layout horizontal.
+
+Veja um protótipo de exemplo:
+
+
+
+Tarefa 12 Esquema de cores
+
+Crie uma página simples e responsiva apresentando um breve resumo sobre os benefícios da responsividade.
+
+Não implemente códigos CSS no arquivo HTML.
+Implemente estilos diferentes para o esquema de cores light e dark.
+Use textos e imagens.
+Pense Mobile-first!
+Tarefa 13 Utilizando Media Queries para o Recurso de Media pointer
+
+Utilize media queries para detectar o tipo de dispositivo apontador (pointer) e ajustar o estilo da página conforme a presença e a precisão do dispositivo de entrada, como um mouse, touchpad, ou tela sensível ao toque.
+
+No arquivo index.html, crie uma estrutura básica de HTML com um container principal que contém três botões. Cada botão terá uma ação visual diferente dependendo do tipo de dispositivo apontador detectado.
+No arquivo style.css, use media queries para aplicar estilos diferentes aos botões com base no valor do recurso de mídia pointer. Adicione estilos específicos para os estados none, coarse, e fine.
+Teste a página em diferentes dispositivos ou usando ferramentas de desenvolvedor do navegador para simular diferentes tipos de dispositivos apontadores.
+Utilize media queries para cada um dos três estados possíveis de pointer: none, coarse, e fine.
+Adicione estilos personalizados para cada estado de pointer para mostrar como o layout e a aparência dos botões mudam.
+Garanta que o layout seja adaptativo, mostrando estilos distintos conforme o tipo de dispositivo apontador detectado.
+Você pode testar os diferentes tipos de pointer alterando as cores do botão ou até mesmo o hover deles nas medias testadas.
+Tarefa 14 Utilizando Media Queries para o Recurso de Mídia hover
+
+Utilize media queries para detectar se um dispositivo de entrada permite ou não que o usuário passe o mouse (hover) sobre os elementos, e ajustar os estilos da página com base nessa capacidade. 
+
+No arquivo index.html, crie uma estrutura básica de HTML com um container principal que contém dois botões. Cada botão terá uma ação visual diferente dependendo da capacidade do dispositivo de realizar um hover.
+No arquivo style.css, use media queries para aplicar estilos diferentes aos botões com base no valor do recurso de mídia hover. Adicione estilos específicos para os estados none e hover.
+Teste a página em diferentes dispositivos ou usando ferramentas de desenvolvedor do navegador para simular diferentes tipos de dispositivos de entrada.
+Utilize media queries para cada um dos dois estados possíveis de hover: none (quando o dispositivo não permite hover) e hover (quando o dispositivo permite hover).
+Adicione estilos personalizados para cada estado de hover para mostrar como a aparência dos botões muda.
+Garanta que o layout seja adaptativo, mostrando estilos distintos conforme a capacidade de hover do dispositivo de entrada detectado.
+Tarefa 15 Utilizando Media Queries para o Recurso de Mídia prefers-color-scheme
+
+Utilize media queries para detectar a preferência de esquema de cores do usuário (claro ou escuro) e ajustar o estilo da página de acordo com essa preferência.
+
+No arquivo index.html, crie uma estrutura básica de HTML com um container principal que contém três seções diferentes: um cabeçalho (header), um conteúdo principal (main), e um rodapé (footer).
+No arquivo style.css, use media queries para aplicar estilos diferentes dependendo do valor do recurso de mídia prefers-color-scheme. Adicione estilos específicos para os esquemas de cores light (claro) e dark (escuro).
+Utilize media queries para os dois possíveis estados de prefers-color-scheme: light (claro) e dark (escuro).
+Adicione estilos personalizados para cada estado de esquema de cores para mostrar como o layout e a aparência mudam.
+Garanta que o layout seja adaptativo, mostrando estilos distintos conforme a preferência de esquema de cores do usuário.
+Tarefa 16 Transmutação Mobile-First
+
+Você recebeu o wireframe a seguir e precisa implementá-lo apenas na versão mobile. Faça a transmutação para mobile, definindo cores e elementos para a composição do projeto, visualmente simples, porém, somente a versão mobile para Iphone de 414px de largura em resolução.
+
+Você deve fazer as suas escolhas de cores, imagens e textos.
+Entregue arquivos HTML e CSS testáveis na resolução solicitada.
+A borda é meramente ilustrativa.
+Pense Mobile-first! Execute Mobile-first!
+
