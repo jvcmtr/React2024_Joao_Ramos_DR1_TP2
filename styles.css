@@ -34,3 +34,19 @@ nav {
 .nav-list li a:hover {
   background-color: #555;
 }
+
+.ex1{
+  max-width: 100vw;
+  filter: blur(0px); 
+}
+@media (max-width: 576px) {
+  .ex1{
+    max-width:100vw;
+  }
+}
+@media (max-width: 992px) {
+  .ex1 {
+    max-width:100vw;
+    filter: saturate(10);
+  }
+}
