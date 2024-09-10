@@ -1,9 +1,10 @@
 import os
 txt = ""
+styleSheet = "<link rel=\"stylesheet\" href=\"styles.css\" />\n"
 tarefa = 0
 
 
-def escrever_arquivo(path, str, type='a'):
+def escrever_arquivo(path, str, type='w'):
     try:
         os.makedirs(os.path.dirname(path), exist_ok=True)
         with open(path, type) as file:
@@ -27,10 +28,11 @@ def initTarefa(str):
     txt = "<p> "
 
 def endTarefa():
-    global txt, tarefa
+    global txt, tarefa, styleSheet
     if tarefa == 0 :
         return
     txt += " </p>"
+    txt = styleSheet + ler_arquivo(f'./exercicio{tarefa}.html') + txt
     escrever_arquivo(f'./exercicio{tarefa}.html', txt)
 
 
