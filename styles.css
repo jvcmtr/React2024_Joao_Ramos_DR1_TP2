@@ -35,18 +35,72 @@ nav {
   background-color: #555;
 }
 
-.ex1 {
+
+
+
+
+
+.ex1 picture {
+  width: 100vw;
+}
+.ex2 picture {
   max-width: 100vw;
 }
-@media (min-width: 992px) {
-  .ex1 {
-    max-width: 100vw;
-    filter: blur(10px);
+
+
+
+
+
+
+.ex3{
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+.ex3.container{
+    width: 86vw;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-items: space-around;
+    gap: 3vw;
+    padding: 7vw;
+}
+.ex3.photo{
+  max-width: 60%; 
+  border-radius: 100%;
+}
+.ex3.buttonLink{
+  padding: 20px;
+  font-weight: 600;
+  color: #eeeeee;
+  background-color: #ff6060;
+  text-decoration: none; 
+}
+@media(min-width: 576px) {
+  .ex3.photo{
+    max-width: 50%;
+  }
+  .ex3.title{
+    max-width: 60%;
+  }
+  .ex3.text{
+    max-width: 60%;
+  }
+  .ex3.buttonLink{
+    max-width: 40%;
   }
 }
-@media (max-width: 576px) {
-  .ex1 {
-    max-width: 100vw;
-    filter: saturate(9);
+@media(min-width: 992px) {
+  .ex3.photo{
+    max-width: 30%;
+  }
+  .ex3.title{
+    max-width: 35%;
+  }
+  .ex3.text{
+    max-width: 35%;
+  }
+  .ex3.buttonLink{
+    max-width: 25%;
   }
 }

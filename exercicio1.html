@@ -1,10 +1,24 @@
 <link rel="stylesheet" href="styles.css" />
-<h1>Tarefa 1 Criação de Layouts com Imagens Fluídas I</h1>
-<a href="index.html">Voltar ao Inicio</a>
-<img
-  class="ex1"
-  src="https://rollingstone.com.br/media/uploads/rick_astley_reproducao.jpg"
-/>
+<div style="background-color: dark-grey;">
+  <h1>Tarefa 1 Criação de Layouts com Imagens Fluídas I</h1>
+  <a href="index.html">Voltar ao Inicio</a>
+</div>
+
+<div class="ex1">
+  <picture class="ex1">
+    <source class="ex1"
+      srcset="https://store-images.s-microsoft.com/image/apps.21855.69479559702140610.dad571dd-6b2c-42a6-be9e-fd11d891d66c.e16a97f5-c50d-4fe7-91fd-1ed4a19aaca7?q=90&w=480&h=270"
+      media="(max-width: 576px)"
+    />
+    <source class="ex1"
+      src="https://upload.wikimedia.org/wikipedia/pt/2/22/Dark_Souls_2_capa.png"
+      media="(max-width: 992px)"
+    />
+    <img class="ex1"
+      src="https://image.api.playstation.com/cdn/UP0700/CUSA03388_00/v8JlD8KcQUtTqaLBmpFnj1ESRR5zMkLk.png"
+    />
+  </picture>
+</div>
 <p>
   Crie um layout básico com imagem responsiva que se ajuste ao tamanho da tela
   usando a tag picture. Utilize a tag específica indicada para o uso de imagens
