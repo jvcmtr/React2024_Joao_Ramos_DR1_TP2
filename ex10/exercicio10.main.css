@@ -1,14 +1,17 @@
-body {
-  visibility: hidden;
-}
-.nav-container{
-  visibility: hidden;
-}
+@import url("exercicio10.large.css") screen and (min-width: 900px);
+@import url("exercicio10.touch.css") screen and (pointer: coarse);
+@import url("exercicio10.wide.css") (orientation: portrait) or (min-aspect-ratio: 10/9);
 
-.ex9{
-  visibility: visible;
+.ex10 {
   background-color: #ff0000;
-  color: #fff;
-  font-size: 40px;
-  font-weight: 800;
+  min-height: 150px;
+  min-width: 150px;
+  transition: width 1.5s ease-in;
+}
+.ex10-container{
+  margin: 10vh;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
