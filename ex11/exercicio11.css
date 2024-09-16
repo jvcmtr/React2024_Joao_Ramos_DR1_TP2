@@ -3,35 +3,38 @@
     font-family: Helvetica, Arial, sans-serif;
     text-align: left;
   }
-  .ex11.container{
-      width: 86%;
-      display: flex;
-      flex-flow: column;
-      align-items: center;
-      justify-items: space-around;
-      padding: 7%;
-  }
-  .ex11.text-container{
-    flex-basis: 2;
+.ex11.container{
+    width: 80%;
     display: flex;
     flex-flow: column;
-    align-items: start;
-    justify-content: space-around;
+    align-items: center;
+    justify-items: space-around;
     padding: 3%;
-  }
+    margin: 7%; 
+    background-color:#fff; 
+}
+.ex11.text-container{
+  flex-basis: 2;
+  display: flex;
+  flex-flow: column;
+  align-items: start;
+  justify-content: space-around;
+  padding: 3%;
+}
+.ex11.photo{
+  flex-basis: 1;
+  width: 40vw; 
+}
+@media(min-width: 576px) {
   .ex11.photo{
-    flex-basis: 1;
-    width: 40vw; 
+    width: 30vw;
   }
-  @media(min-width: 576px) {
-    .ex11.photo{
-      width: 30vw;
-    }
+}
+@media(min-width: 992px) {
+  .ex11.photo{
+    width: 20vw;
   }
-  @media(min-width: 992px) {
-    .ex11.photo{
-      width: 20vw;
-    }
-    .ex11.container{
-        flex-flow: row;
+  .ex11.container{
+      flex-flow: row;
   }
+}
